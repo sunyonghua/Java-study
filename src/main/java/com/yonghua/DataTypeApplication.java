@@ -1,3 +1,5 @@
+package com.yonghua;
+
 /*
  * @user sun yong hua
  * Java

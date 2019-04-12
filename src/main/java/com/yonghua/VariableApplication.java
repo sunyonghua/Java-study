@@ -1,3 +1,5 @@
+package com.yonghua;
+
 public class VariableApplication {
   private String name = "sun yong hua"; // 字符串变量
   private byte age = 100; // 整数变量
@@ -26,7 +28,9 @@ public class VariableApplication {
     System.out.println(user.age); // 18
     System.out.println(user.nation); // 汉
     System.out.println(user.beautify); // true
-
+    ModifierApplication modifier = new ModifierApplication();
+    System.out.println(ModifierApplication.weeks); //9.5-> 指向ModifierApplication类中定义变量 --- 测试static修饰符
+    System.out.println(modifier.beautify); //true -> 指向ModifierApplication类中定义变量 --- 测试public修饰符
 //    user.age = 129;  //强类型报错 因为byte取值范围在-128~127之间 包括127 -128
 //    user.age = -129;  //强类型报错 因为byte取值范围在-128~127之间
   }
