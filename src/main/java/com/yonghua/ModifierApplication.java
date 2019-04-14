@@ -1,6 +1,7 @@
 package com.yonghua;
 
 /**
+ * 修饰符
  * Java语言提供了很多修饰符，主要分为以下两类：
  * 访问修饰符
  * 非访问修饰符
@@ -23,6 +24,7 @@ public class ModifierApplication {
     System.out.println(ModifierApplication.weeks);// 9.5
   }
 
+  // 内部类
   public class Son {
 
   }
