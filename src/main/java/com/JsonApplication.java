@@ -3,9 +3,7 @@ package com;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author sun yong hua
@@ -24,6 +22,7 @@ public class JsonApplication {
     data.add("3");
     data.add("4");
     jsonObject.put("data", data);
+
     System.out.println(jsonObject);
   }
 }
