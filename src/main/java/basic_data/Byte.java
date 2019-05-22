@@ -1,5 +1,7 @@
 package basic_data;
 
+import java.util.Arrays;
+
 /**
  * @author sun yong hua
  * @description Byte
@@ -21,5 +23,8 @@ public class Byte {
     byte Max = 127;  // byte存储的最大值
     byte Min = -128; // byte存储的最小值
     System.out.println(Byte.a);
+
+    byte[] values = new byte[8];
+    System.out.println(Arrays.toString(values));
   }
 }
